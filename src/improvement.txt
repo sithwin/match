@@ -1,0 +1,25 @@
+team name -> parameter pass
+remove hard coded column index
+
+can't see Draw and Lost count
+
+
+calculateWin() {
+
+    for (let match of reader.data) {
+    if (match[1] === 'Man United' && match[5] === MatchResult.HomeWin) {
+        manUnitedWins++;
+    } else if (match[2] === 'Man United' && match[5] === MatchResult.AwayWin) {
+        manUnitedWins++;
+    }
+}
+}
+calculateLost()
+calculateDraw()
+
+
+
+MainMethod() {
+    readCsv()
+    calculateWin() 
+}
