@@ -3,7 +3,7 @@
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
-  "collectCoverage": true,
+  collectCoverage: true,
   collectCoverageFrom: [
     '**/*.{ts,tsx}',
     '!**/node_modules/**',
