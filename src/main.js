@@ -33,8 +33,8 @@ async function makeCommitsForDateRange(startDate, endDate, commits) {
 }
 
 // Usage example
-const startDate = new Date('2022-11-05T12:00:00Z');
-const endDate = new Date('2022-11-06T12:00:00Z');
+const startDate = new Date('2022-11-11T12:00:00Z');
+const endDate = new Date('2022-11-12T12:00:00Z');
 const commits = [
   'Added improvement',
   'Read from csv file',
